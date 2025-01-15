@@ -1,17 +1,16 @@
-import Map from 'https://cdn.jsdelivr.net/npm/ol/Map.js';
-import View from 'https://cdn.jsdelivr.net/npm/ol/View.js';
-import TileLayer from 'https://cdn.jsdelivr.net/npm/ol/layer/Tile.js';
-import OSM from 'https://cdn.jsdelivr.net/npm/ol/source/OSM.js';
-import VectorLayer from 'https://cdn.jsdelivr.net/npm/ol/layer/Vector.js';
-import VectorSource from 'https://cdn.jsdelivr.net/npm/ol/source/Vector.js';
-import Feature from 'https://cdn.jsdelivr.net/npm/ol/Feature.js';
-import Point from 'https://cdn.jsdelivr.net/npm/ol/geom/Point.js';
-import Style from 'https://cdn.jsdelivr.net/npm/ol/style/Style.js';
-import CircleStyle from 'https://cdn.jsdelivr.net/npm/ol/style/Circle.js';
-import Fill from 'https://cdn.jsdelivr.net/npm/ol/style/Fill.js';
-import Stroke from 'https://cdn.jsdelivr.net/npm/ol/style/Stroke.js';
-import { fromLonLat } from 'https://cdn.jsdelivr.net/npm/ol/proj.js';
-
+import './style.css';
+import {Map, View} from 'ol';
+import TileLayer from 'ol/layer/Tile';
+import OSM from 'ol/source/OSM';
+import VectorLayer from 'ol/layer/Vector';
+import VectorSource from 'ol/source/Vector';
+import Feature from 'ol/Feature';
+import Point from 'ol/geom/Point';
+import Style from 'ol/style/Style';
+import CircleStyle from 'ol/style/Circle';
+import Fill from 'ol/style/Fill';
+import Stroke from 'ol/style/Stroke';
+import { fromLonLat } from 'ol/proj';
 
 const cities = [
   { coordinates: [-119.731994, 38.937779], count: 1 }, // Nevada
