@@ -1,16 +1,16 @@
 import './style.css';
-import {Map, View} from './ol';
-import TileLayer from './ol/layer/Tile';
-import OSM from './ol/source/OSM';
-import VectorLayer from './ol/layer/Vector';
-import VectorSource from './ol/source/Vector';
-import Feature from './ol/Feature';
-import Point from './ol/geom/Point';
-import Style from './ol/style/Style';
-import CircleStyle from './ol/style/Circle';
-import Fill from './ol/style/Fill';
-import Stroke from './ol/style/Stroke';
-import { fromLonLat } from './ol/proj';
+import {Map, View} from 'ol';
+import TileLayer from 'ol/layer/Tile';
+import OSM from 'ol/source/OSM';
+import VectorLayer from 'ol/layer/Vector';
+import VectorSource from 'ol/source/Vector';
+import Feature from 'ol/Feature';
+import Point from 'ol/geom/Point';
+import Style from 'ol/style/Style';
+import CircleStyle from 'ol/style/Circle';
+import Fill from 'ol/style/Fill';
+import Stroke from 'ol/style/Stroke';
+import { fromLonLat } from 'ol/proj';
 
 const cities = [
   { coordinates: [-119.731994, 38.937779], count: 1 }, // Nevada
