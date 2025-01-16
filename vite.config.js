@@ -1,8 +1,6 @@
-import { defineConfig } from 'vite';
-
-export default defineConfig({
-  base: '/', // Set this to '/' since you're using root or docs/
+export default {
+  base: './', // Use relative paths for GitHub Pages
   build: {
-    outDir: 'docs', // Output build files to 'docs/'
+    outDir: 'docs', // Ensure the output goes to the correct directory
   },
-});
+};
